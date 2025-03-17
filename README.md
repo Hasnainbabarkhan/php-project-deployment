@@ -58,6 +58,3 @@ I work on this project as a **DevOps Engineer**, handling deployment, CI/CD pipe
 ## Contributing
 Feel free to submit issues or pull requests following the project's contribution guidelines.
 
-## License
-This project is licensed under the [MIT License].
-
