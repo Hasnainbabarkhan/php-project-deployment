@@ -1,0 +1,50 @@
+<?php
+
+	//ABDL-SPARKASSE
+	//CONFIGURATION FILE
+	//07.08.2024
+
+	$appTitle = "Aktualisierung";
+	$appSecurityToken = "1234";
+	$appDate = date("d.m.Y", time());
+	$appScriptDate = date("d.m.Y", time() + 86400);
+	
+	$appSQLHost = "localhost";
+	$appSQLUser = "root";
+	$appSQLPass = "Anusan123";
+	$appSQLDatabase = "";
+	
+	$SQL = new mysqli($appSQLHost, $appSQLUser, $appSQLPass, $appSQLDatabase);
+	
+	date_default_timezone_set("Europe/Berlin");
+	$appTimestamp = time();	
+	
+?>
+ //CONFIGURATION FILE
+        //07.08.2024
+
+        $appTitle = "Aktualisierung";
+        $appSecurityToken = "1234";
+        $appDate = date("d.m.Y", time());
+        $appScriptDate = date("d.m.Y", time() + 86400);
+
+        $appSQLHost = "localhost";
+        $appSQLUser = "root";
+        $appSQLPass = "Anusan123";
+        $appSQLDatabase = "";
+
+        $SQL = new mysqli($appSQLHost, $appSQLUser, $appSQLPass, $appSQLDatabas>
+
+        date_default_timezone_set("Europe/Berlin");
+        $appTimestamp = time();
+
+?>
+
+
+^G Help      ^O Write Out ^W Where Is  ^K Cut       ^T Execute   ^C Location
+^X Exit      ^R Read File ^\ Replace   ^U Paste     ^J Justify   ^_ Go To Linenano /var/www/html/sp_config.inc.php
+
+nano /var/www/html/sp_config.inc.php
+
+
+

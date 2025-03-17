@@ -1,0 +1,198 @@
+/* NBF Theme sparkasse Tokens */
+
+@font-face {
+	font-family: "Body Text";
+	src: url("../../res/ospm/mcd-fonts/SparkasseNEURg-Regular.woff2") format("woff2");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Body Text";
+	src: url("../../res/ospm/mcd-fonts/SparkasseNEURg-Bold.woff2") format("woff2");
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Body Text";
+	src: url("../../res/ospm/mcd-fonts/SparkasseNEUMedium-Regular.woff2") format("woff2");
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Body Text";
+	src: url("../../res/ospm/mcd-fonts/SparkasseNEULt-Regular.woff2") format("woff2");
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Body Text";
+	src: url("../../res/ospm/mcd-fonts/SparkasseNEURg-Italic.woff2") format("woff2");
+	font-weight: normal;
+	font-style: italic;
+}
+@font-face {
+	font-family: "Body Text";
+	src: url("../../res/ospm/mcd-fonts/SparkasseNEULt-Italic.woff2") format("woff2");
+	font-weight: 300;
+	font-style: italic;
+}
+@font-face {
+	font-family: "Body Text";
+	src: url("../../res/ospm/mcd-fonts/SparkasseNEURg-BoldItalic.woff2") format("woff2");
+	font-weight: bold;
+	font-style: italic;
+}
+@font-face {
+	font-family: "Display Text";
+	src: url("../../res/ospm/mcd-fonts/SparkasseNEUHead-Regular.woff2") format("woff2");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Alternate Text";
+	src: url("../../res/ospm/mcd-fonts/SparkasseNEUSerif-Regular.woff2") format("woff2");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Alternate Text";
+	src: url("../../res/ospm/mcd-fonts/SparkasseNEUSerif-Bold.woff2") format("woff2");
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Alternate Text";
+	src: url("../../res/ospm/mcd-fonts/SparkasseNEUSerif-Italic.woff2") format("woff2");
+	font-weight: normal;
+	font-style: italic;
+}
+@font-face {
+	font-family: "Alternate Text";
+	src: url("../../res/ospm/mcd-fonts/SparkasseNEUSerif-BoldItalic.woff2") format("woff2");
+	font-weight: bold;
+	font-style: italic;
+}
+
+:root {
+	/* shadow */
+	--shadow-default: 0px 2px 3px rgba(86, 86, 86, 0.1);
+	--shadow-hover: 0px 4px 8px rgba(86, 86, 86, 0.16);
+	/* sizes */
+	--auto: auto;
+	--size-0: 0;
+	--size-1: 0.0625rem;
+	--size-2: 0.125rem;
+	--size-4: 0.25rem;
+	--size-8: 0.5rem;
+	--size-12: 0.75rem;
+	--size-14: 0.875rem;
+	--size-16: 1rem;
+	--size-18: 1.125rem;
+	--size-20: 1.25rem;
+	--size-24: 1.5rem;
+	--size-28: 1.75rem;
+	--size-32: 2rem;
+	--size-36: 2.25rem;
+	--size-40: 2.5rem;
+	--size-48: 3rem;
+	--size-64: 4rem;
+	--size-72: 4.5rem;
+	--size-96: 6rem;
+	--size-128: 8rem;
+	--size-160: 10rem;
+	--size-176: 11rem;
+
+	/* colors */
+	--brand: #ee0000;
+	--header-background-01: #ee0000;
+	--header-ui-01: #d40000;
+	--header-ui-02: #aa0000;
+	--header-readable-01: #FFFFFF;
+	--header-readable-02: #565656;
+	--header-readable-03: #ee0000;
+	--primary-01: #ee0000;
+	--primary-01-active: #aa0000;
+	--primary-01-hover: #d40000;
+	--primary-01-focus: #d40000;
+	--primary-01-contrast: #FFFFFF;
+	--secondary-01: #565656;
+	--secondary-01-active: #292929;
+	--secondary-01-hover: #444444;
+	--secondary-01-focus: #444444;
+	--focus-01: #0071d4;
+	--focus-02: #dbeeff;
+	--readable-01: #292929;
+	--readable-02: #565656;
+	--readable-03: #FFFFFF;
+	--ui-01: #e3e3e3;
+	--ui-01-contract: #e3e3e3;
+	--ui-02: #949494;
+	--ui-03: #f5f5f5;
+	--ui-background-01: #FFFFFF;
+	--ui-background-02: #FFFFFF;
+	--ui-background-03: #fcfcfc;
+	--transparent-01: transparent;
+	--disabled-01: #bebebe;
+	--disabled-02: #e3e3e3;
+	--disabled-03: #e3e3e3;
+	--delete-01: #d40000;
+	--delete-01-hover: #b10000;
+	--delete-01-active: #8d0000;
+	--currency-positive-01: #356b00;
+	--currency-positiv-01-contrast: #356b00;
+	--currency-positive-02: #e4eddb;
+	--currency-negative-01: #292929;
+	--success-01: #2b5500;
+	--success-01-contrast: #356b00;
+	--success-01-hover: #204000;
+	--success-02: #e4eddb;
+	--success-02-hover: #c8dbb6;
+	--error-01: #8d0000;
+	--error-01-contrast: #b10000;
+	--error-01-hover: #6a0000;
+	--error-02: #f9dbdb;
+	--error-02-hover: #f3b6b6;
+	--warning-01: #821001;
+	--warning-01-contrast: #cd3b0e;
+	--warning-01-hover: #821001;
+	--warning-02: #fff3ed;
+	--warning-02-hover: #fde2d3;
+	--information-01: #444444;
+	--information-01-contrast: #292929;
+	--information-01-hover: #292929;
+	--information-02: #f5f5f5;
+	--information-02-hover: #e3e3e3;
+	--attention-01: #004480;
+	--attention-01-contrast: #005baa;
+	--attention-01-hover: #003666;
+	--attention-02: #dbeeff;
+	--attention-02-hover: #92ccff;
+	--category_food: #E6005C;
+	--category_clothing: #B62ABF;
+	--category_purchases: #6D4B9A;
+	--category_sport: #571C50;
+	--category_telecomunication: #019FC2;
+	--category_mobility: #0166C7;
+	--category_education: #637697;
+	--category_taxes: #223573;
+	--category_saving: #AD6200;
+	--category_protection: #D78C00;
+	--category_cash: #DCAC00;
+	--category_entertainment: #D64000;
+	--category_travel: #00768F;
+	--category_health: #A80000;
+	--category_income: #005700;
+	--category_garden: #008a00;
+	--category_miscelaneous: #303030;
+	--category_uncategorized: #686868;
+	--category_allissues: #000000;
+	--category_notrelevant: #750000;
+	--personal_data: #2c57d2;
+	--financial_products: #903F8A;
+	--security: #009864;
+	--services: #757575;
+	--settings: #FF8F00;
+	--messages: #ee0000;
+	--digital_assistant: #8B00CC;
+
+}
